@@ -1,0 +1,25 @@
+.layout {
+  .Message-heading {
+      background-color: transparent;
+      ul{
+        list-style-type: none;
+        li{
+          display: inline;
+          
+        }
+      }
+  }
+  .message-container {
+    float: right;
+    width: 66%;  
+    margin-right: 70px;
+    margin-top: 40px;
+    border-radius: 0px 0px 20px 20px;
+
+  }
+  .message-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

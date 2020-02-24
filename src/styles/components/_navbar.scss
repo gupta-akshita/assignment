@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+.navbar{
+    background-color: green;
+    .nav-bar {
+        overflow: hidden;
+        background-color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+
+        a{
+            float: left;
+            font-size: 16px;
+            color: rgb(189, 186, 186);
+            text-align: center;
+            padding: 22px 16px;
+            text-decoration: none;
+            &:hover {
+                color: #FF7A00;
+                border-bottom: 2px solid #FF7A00;
+              }
+            &:active {
+                color: #FF7A00;
+                border-bottom: 2px solid #FF7A00;
+            }
+            }
+        
+        .dropdown {
+            float: right;
+            overflow: hidden;
+
+            .dropbtn {
+                cursor: pointer;
+                font-size: 16px; 
+                border: none; 
+                outline: none;
+                color: black;
+                padding: 22px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                font-weight: 600;
+                margin: 0;
+                &:hover {
+                color: #FF7A00;
+                
+              }
+              
+              }
+              
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+
+            a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                &:hover {
+                color: #FF7A00;
+              }
+              }
+              
+          }
+    }
+}
